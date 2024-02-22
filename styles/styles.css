@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(#999999, #000000);
+    background-image: linear-gradient(#e2e2e2, #b3b3b3);
 }
 
 body {
@@ -7,9 +7,37 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+}
+
+p {
+    margin-top: 0.5rem;
+    line-height: 1.8rem;
 }
 
 .container {
-    width: 1024px;
+    max-width: 1024px;
     min-height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.art {
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.art-1 {
+    flex: 1;
+    background-image: url(../images/apple-02-22-2024.jpg);
+    background-size: cover;
+    min-height: 512px;
+    width: 512px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
 }
