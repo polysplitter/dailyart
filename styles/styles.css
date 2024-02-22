@@ -27,16 +27,32 @@ p {
 .art {
     display: flex;
     text-align: center;
+    justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+.cast-1, .cast-2, .cast-3, .cast-4, .cast-5, .cast-6 {
+    width: 48%;
+}
+
 .art-1 {
-    flex: 1;
     background-image: url(../images/apple-02-22-2024.jpg);
     background-size: cover;
+    background-position: center;
     min-height: 512px;
-    width: 512px;
+    width: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    margin-top: 20px;
+}
+
+.art-0 {
+    background-image: url(../images/yellow_blob.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 512px;
+    width: auto;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
     margin-top: 20px;
